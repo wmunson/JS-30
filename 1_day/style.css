@@ -1,0 +1,38 @@
+.keys {
+    background-color: blue;
+    margin: 3%;
+    border:solid;
+    display: inline-block;
+    transition:all 0.07s;
+    border-radius: 6px;
+    width: 40px;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container{
+	width: 50%;
+	background-color: gray;
+}
+
+#buttons {
+	display: flex;
+	justify-content: space-around;
+    background-color: white
+}
+
+.playing {
+    transform:scale(2.1);
+    border-color:red;
+    
+}
+
+
+
+
