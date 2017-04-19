@@ -1,9 +1,22 @@
+:root{
+    --base:blue;
+    --spacing:1em;
+    --blus:1em;
+}
+
+.body{
+    background-color: gray;
+}
+
 .sub {
     background-color:red;
     display:flex;
     flex-direction: row;
     align-items:center;
     justify-content:center;
+    padding: var(--spacing);
+    background:var(--base);
+    filter: blur(var(--blur));
     
 }
 
