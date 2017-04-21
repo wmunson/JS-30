@@ -4,27 +4,16 @@
     --blus:1em;
 }
 
-.body{
+body{
     background-color: gray;
 }
 
-.sub {
-    background-color:red;
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content:center;
-    padding: var(--spacing);
-    background:var(--base);
-    filter: blur(var(--blur));
-    
-}
 
 
 .container {
     background-color:gray;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     justify-content:center;
     height: 100vh;
@@ -32,5 +21,21 @@
 }
 
 
+.sub {
+    /*background-image: url('blackwood2.jpg');*/
+    background-color:yellow;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height:25em;
+    width:50%;
+    padding: var(--spacing);
+    /*background:var(--base);*/
+    filter: blur(var(--blur));
+    
+}
 
-
+img{
+    height:90%;
+}
