@@ -1,0 +1,42 @@
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:0px;
+}
+
+body{
+    background-color: gray;
+}
+
+
+
+.container {
+    background-color:gray;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+    
+}
+
+
+.sub {
+    /*background-image: url('blackwood2.jpg');*/
+    /*background-color:yellow;*/
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height:25em;
+    width:50%;
+    
+    
+}
+
+img{
+    height:90%;
+    padding: var(--spacing);
+    background:var(--base);
+    filter: blur(var(--blur));
+}
